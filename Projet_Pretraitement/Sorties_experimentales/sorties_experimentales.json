@@ -1,0 +1,32 @@
+{
+  "date": "2026-05-02 11:52:56.639929",
+  "partie_I": {
+    "train_shape": [
+      712,
+      8
+    ],
+    "test_shape": [
+      179,
+      8
+    ],
+    "cv_logreg": 0.7964247020585048,
+    "cv_rf": 0.7922584457795725,
+    "best_params": "{'clf__max_depth': 10, 'clf__min_samples_split': 5, 'clf__n_estimators': 200}",
+    "best_cv_score": 0.8286811779769525,
+    "test_accuracy_best": 0.7988826815642458
+  },
+  "partie_II": {
+    "train_docs": 2330,
+    "test_docs": 1551,
+    "classes": [
+      "rec.sport.baseball",
+      "sci.med",
+      "sci.space",
+      "talk.politics.guns"
+    ],
+    "cv_count_nb": 0.9060074433785773,
+    "cv_tfidf_lr": 0.8944189034395219,
+    "best_test_accuracy": 0.8891038039974211,
+    "best_pipeline_name": "Count+NB"
+  }
+}
